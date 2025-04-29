@@ -50,3 +50,13 @@ print(f"7 x {num} = {mult_7}")
 print(f"8 x {num} = {mult_8}")
 print(f"9 x {num} = {mult_9}")
 print(f"10 x {num} = {mult_10}")
+
+
+maior = 0
+for i in range(1, 101):
+    num = int(input())
+    if num > maior:
+        maior = num
+        posicao = i
+print(maior)
+print(posicao)
